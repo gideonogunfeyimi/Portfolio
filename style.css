@@ -104,7 +104,7 @@ main > section{padding:clamp(56px,8vw,112px) var(--gutter);max-width:var(--max);
 .case-media img{width:100%;border-radius:4px;box-shadow:0 1px 0 var(--rule)}
 .case-media.two{align-items:start}
 #reports .case-media.two,#film .case-media.two{grid-template-columns:1fr}
-#reports .case-media img,#film .case-media img{aspect-ratio:16/9}
+#reports .case-media img,#film .case-media img{aspect-ratio:16/9;object-fit:cover;box-shadow:none}
 
 .links{display:flex;flex-wrap:wrap;gap:6px 20px;font-family:var(--display);font-size:.98rem;margin-top:1.2em}
 
